@@ -1,1 +1,8 @@
+import random
+
+number_to_guess = random.randint(1, 100)
+guesses_taken = 0
+
+print("Welcome to the Guess the Number game!")
+print("I am thinking of a number between 1 and 100.")
 
