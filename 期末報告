@@ -6,3 +6,6 @@ guesses_taken = 0
 print("Welcome to the Guess the Number game!")
 print("I am thinking of a number between 1 and 100.")
 
+while True:
+    guess = int(input("Take a guess: "))
+    guesses_taken += 1
